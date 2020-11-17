@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=https://www.leedstrinity.ac.uk/media/site-assets/images/blog/ltu-lgbt-external-19.png width="300" title="hover text">
+  <img src=https://www.leedstrinity.ac.uk/media/site-assets/images/blog/ltu-lgbt-external-19.png width="300" title="Leeds Trinity University">
 </p>
 
 # [re]boot Digital Coding Web Development - November 2020
