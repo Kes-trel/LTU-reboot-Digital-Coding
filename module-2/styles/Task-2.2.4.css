@@ -1,0 +1,15 @@
+h1 strong {
+    color: red;
+}
+
+h2 em {
+    background-color: orange;
+}
+
+ul li a em {
+    background-color: lightblue;
+}
+
+ol em {
+    background-color: green;
+}
