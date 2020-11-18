@@ -1,0 +1,20 @@
+body {
+    background-color: wheat;
+}
+
+p {
+    background-color: yellowgreen;
+    color: black;
+    font-style: italic;
+}
+
+ol {
+    font-weight: 1000;
+    color: green;
+}
+
+a:hover {
+    background-color: yellow;
+    color: green;
+    font-size: large;
+}
