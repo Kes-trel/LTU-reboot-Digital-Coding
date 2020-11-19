@@ -5,11 +5,11 @@ a:active {
     background-color:red;
 }
   
-a .bluetext {
-    a:hover {
-        background-color: green;
+.bluetext:hover{
+    background-color: green;
     }
-    a:active {
+.bluetext:active {
         background-color:blue;
     }  
 }
+
