@@ -1,0 +1,15 @@
+a:hover {
+    background-color: yellow;
+}
+a:active {
+    background-color:red;
+}
+  
+a .bluetext {
+    a:hover {
+        background-color: green;
+    }
+    a:active {
+        background-color:blue;
+    }  
+}
