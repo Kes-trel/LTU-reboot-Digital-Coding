@@ -1,3 +1,25 @@
-.container {
-    
+header {
+    border: 4px solid green;
+}
+main {
+    border: 4px solid red;
+}
+
+footer {
+    border: 4px solid goldenrod;
+}
+
+header, main {
+    margin-bottom: 10px;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+div.container {
+    width: 90%;
+    margin: 20px auto;
+    border: 4px solid blue;
+    padding: 5px;
 }
