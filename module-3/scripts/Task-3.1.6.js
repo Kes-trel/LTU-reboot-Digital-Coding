@@ -5,4 +5,4 @@ var strTotalBill = strMealCost * (strServiceChargePercent/100);
 
 document.write("Your total bill, including the service charge, is £"+strTotalBill);
 
-document.write("Your total bill, rounded to two decimal points, is £"+strTotalBill.toFixed(2));
+alert ("Your total bill, rounded to two decimal points, is £"+strTotalBill.toFixed(2));
