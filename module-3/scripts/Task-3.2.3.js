@@ -1,4 +1,4 @@
 function fullName (firstName, lastName) {
-    return (firstName + " " + lastName);
+    return firstName + " " + lastName;
 }
-fullName ("Rusty", "Gustave of Nab Lane")
+console.log ("Rusty", "Gustave of Nab Lane")
