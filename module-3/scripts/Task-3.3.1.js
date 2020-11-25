@@ -1,0 +1,3 @@
+function percentageCalculator {
+    var number
+}
