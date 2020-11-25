@@ -18,3 +18,11 @@ function functionName (parameters) {
 function greeting (name){
     console.log(name);
 }
+
+greeting ("Rusty");
+
+function nameAndAge (name, age){
+    console.log(name + " is " + age + " years old");
+}
+
+nameAndAge ("Rysty",3);
