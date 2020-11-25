@@ -26,3 +26,13 @@ function nameAndAge (name, age){
 }
 
 nameAndAge ("Rysty",3);
+
+// Returning a value
+
+function say(message){
+    console.log(message);
+}
+
+var result = say("Hello")
+
+console.log()
