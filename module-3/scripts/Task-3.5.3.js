@@ -60,13 +60,18 @@ let shoppingCart = [
   price:.4
 }];
 
-    function discountFood( arr ) { 
+    function discountFood( arr, discountAmount, itemtype ) { 
         let totalPrice = 0;
-        
+        let discount = 1-(discountAmount/100);
+            
         for (let index = 0; index < arr.length; index++){
-            if (arr[index].type === "food"){
-                totalPrice = totalPrice + ((arr[index].price * 0.8) * arr[index].quantity)
-            } else{
+            if (arr[index].type === itemtype){
+                totalPrice = totalPrice + ((arr[index].price * discount) * arr[index].quantity)
+            }
+            else if (itemtype === "any"){
+                totalPrice = totalPrice + ((arr[index].price * discount) * arr[index].quantity)  
+            } 
+            else{
             totalPrice = totalPrice + (arr[index].price * arr[index].quantity)
             }
             
@@ -74,4 +79,4 @@ let shoppingCart = [
     return totalPrice.toFixed(2);
     }
 
-    console.log(discountFood(shoppingCart));
+    console.log(discountFood(shoppingCart, 50, "any"));
