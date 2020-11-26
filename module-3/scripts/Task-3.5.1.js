@@ -58,9 +58,22 @@ let shoppingCart = [
     type:"food",
     quantity:3,
     price:.4
-    }​​];
+    }​​
+];
 
     function shoppingCartTotalPrice( arr ) { //1. create a function that takes one parameter (the Array)
 
         let totalPrice = 0; //2. Create a variable inside the function called "totalPrice"
+        
+        //3. Loop through each item of the array and add the value of the item to the total price
+        for (let index = 0; index < arr.length; index++) {
+            totalPrice = totalPrice + (arr[index].price * arr[index].quantity)
+        }
+
+    //4. Return the totalPrice variable
+
+    return totalPrice;
+
     }
+
+    shoppingCartTotalPrice(shoppingCart);
