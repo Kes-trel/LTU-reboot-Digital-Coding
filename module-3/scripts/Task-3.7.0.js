@@ -1,11 +1,6 @@
 const listItems = document.querySelectorAll('button.selection');
 
 const allimages = document.querySelectorAll('.main .image-selections .images');
-
-let filterSearch = document.querySelector('input[name="filter"]'); // Grabbing hold of the search input
-
-let filterButton = document.querySelector('.filter-button');
-// Grabbing hold of the filter button
  
 function toggleActiveClass( active ){
     listItems.forEach( function( item ) {
