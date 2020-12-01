@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task 4.2.2 Fix Start Pseudocode</title>
+    <title>Task 4.2.2 Pseudocode</title>
 </head>
 <body>
 
-    <!-- 
+    <!-- FIXED START
         function called "FixStart"
         function has a single variable assigned to it
         function checks first letter
@@ -47,7 +47,19 @@
                 author: "J.K. Rowling",
                 hasRead: true
             }
-        ]
+        ];
+
+        for (let index = 0; index < books.length; index++){
+
+            // console.log(books[index].hasRead)
+
+            if (books[index].hasRead){
+
+                console.log(books[index].title)
+
+            }
+
+        }
 
      </script>
     
