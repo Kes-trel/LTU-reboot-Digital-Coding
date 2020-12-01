@@ -6,10 +6,8 @@
     <title>Fixed Start</title>
 </head>
 <body>
-    
-</body>
-</html>
-/*
+
+<!--
 FIXED START
         function called "FixStart"
         function has a single variable assigned to it
@@ -33,17 +31,34 @@ FIXED START
 
         Print results
 
-*/
+-->
 
-function fixedStart (word){
-    let word = "bubble"
 
-    for(let letter=word[1]; letter < word.length; letter++ ){
+<script>
+
+function fixedStart(){
+
+    let changedWord = ""[0];
+
+    for(let letter=changedWord[0]; letter < changedWord.length; changedWord[0]++ ){
         if(word[0]=letter){
-            document.write("*")
+            changedWord = changedWord +"*";
         } else{
-            document.write(letter)
+            changedWord = changedWord + "1";
         }
     }
-}
 
+}
+    console.log(fixedStart("bubble"))
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
