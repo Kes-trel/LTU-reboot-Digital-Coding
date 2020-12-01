@@ -25,5 +25,15 @@ FIXED START
 
 */
 
+function fixedStart (word){
+    let word = "bubble"
 
+    for(let letter=word[1]; letter < word.length; letter++ ){
+        if(word[0]=letter){
+            document.write("*")
+        } else{
+            document.write(letter)
+        }
+    }
+}
 
