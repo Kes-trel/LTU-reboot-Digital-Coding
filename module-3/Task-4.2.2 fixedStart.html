@@ -33,25 +33,32 @@ FIXED START
 
 -->
 
-
 <script>
-
-    function FixedStart(wordInput) {
-
-        let wordIntoArray = wordInput.split("");
-
-        for(let letter = 0; letter < wordIntoArray.length; letter++ ){
-            
-        }
-
-
-    }
 
     // Testing changing a STRING into an ARRAY
     // let wordInput = "bubble";
     // let wordIntoArray = wordInput.split("");
 
     // console.log(wordIntoArray)
+
+    function fixedStart(wordInput,symbol) {
+
+        let wordIntoArray = wordInput.split(""); //split string into ARRAY to make the loop count working, could not think of other way of doing this. Assumed that this should be posible from my Python lessons and found a way on W3SCHOOLS.
+        let newWord = ""
+        
+        for(let letter = 0; letter < wordIntoArray.length; letter++ ){
+            if(wordIntoArray[letter] == wordInput[0] && letter != 0) { //letter in array is equal to the first letter but not the first letter itself
+                newWord = newWord + symbol; //concatenate new word with a symbol if repeating first letter
+            } else {
+                newWord = newWord + wordIntoArray[letter]; //concatenate new word with original letter
+            }
+        }
+        return newWord
+    }
+
+    console.log(fixedStart("bubble","*")); //if the first letter repeats itself in the word then it replaces the the consecutive letter with a specified symbol (or any string for that matter) 
+
+
 
 
 
